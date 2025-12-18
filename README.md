@@ -4,7 +4,23 @@
 > 就能把真实表达，  
 > 自动整理成一整期 **可发布播客作品** 的工具。
 
----
+
+## 🔐 本地环境变量配置（OPENAI_API_KEY）
+
+⚠️ **重要说明**  
+开发者需要在 **自己的本地环境** 单独配置 API Key。
+
+### 本地配置步骤（Mac / Linux）
+
+#### 1️⃣ 在项目根目录创建 `.env.local`
+
+在项目根目录（与 `package.json` 同级）执行：
+
+```bash
+touch .env.local
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
 
 ## 一、这个产品解决的核心问题
 
